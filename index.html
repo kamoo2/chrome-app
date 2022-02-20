@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/app.js" defer></script>
+    <script src="./js/weather.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <div class="contents">
+        <div class="clock"></div>
+        <h2 class="info__text">Welcome My App</h2>
+        <form class="form login__form">
+          <input class="input login__name" type="text" placeholder="이름 입력" />
+          <button class="btn login__btn">LOGIN</button>
+        </form>
+        <form class="form todo__form none">
+          <input class="input todo__text" type="text" placeholder="해야할 일 작성" />
+          <button class="btn todo__btn">OK</button>
+        </form>
+        <ul class="todo__list"></ul>
+        <div class="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

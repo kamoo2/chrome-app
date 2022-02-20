@@ -1,0 +1,79 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents {
+  width: 1000px;
+  padding: 100px;
+  position: relative;
+}
+
+.clock {
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.info__text {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 2px;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.todo__list {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.todo__list > li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather {
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
